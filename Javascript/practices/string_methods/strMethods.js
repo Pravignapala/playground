@@ -1,93 +1,38 @@
-const arr=Array()
-console.log(arr)
-const arr1 = [1,2,3,4,5,5,'dkhw',{object:'red'},{tear:['wear','ferros','choco']}]
-console.log(arr1)
-console.log('modifying the element')
-arr1[2]=5
-console.log(arr1[2])
-console.log(arr1.length)
-console.log(arr1[3])
-console.log('array of objects')
-let ObjArr=[{name:'pravigna'},{Dob:'21-11-2000'},{location:'kansas'}]
-let ObjArr2={name:'pravigna',Dob:'nov-21',loc:'kansas'}
-console.log('checking Array')
-console.log(Array.isArray(ObjArr2))
-console.log(Array.isArray(ObjArr))
-console.log(ObjArr[0])
-console.log(ObjArr2[0])
-let ArrArr=[{aa:['re','te','fef']},{sec:['yi','re','ty']}]
-console.log(ArrArr)
+let string3 = '30 Days Of JavaScript'
+console.log(string3.charCodeAt(3))  
+console.log('trial for indexOf '+string3.indexOf('S'))
+console.log(string3.substring(14,17).split(''))
+console.log('trial with search '+ string3.search(/ /gi))
+console.log(string3.match('JavaScript'))
+console.log('2nd match with regular expression only returning result in  string if it combined with string in console '+string3.match(/javascript/gi)) 
+let string5= '30 Days Of JavaScript and 30 Days Of JavaScript'
+console.log('without combinig with string for match then it will return array only in regular expression if the match of words are more than one then also it will return all')
+console.log(string5.match(/javascript/gi))
+console.log(string5.match('JavaScript'))
 
-console.log('Accessing the Array')
-let AccArr=ArrArr[0]
-let AccLast=ArrArr.length-1
-let lastind=ArrArr[AccLast]
-console.log(AccArr)
-console.log(lastind)
-console.log(ArrArr[[0]])
-let ArrCons=Array(3)
-console.log('Array Constructor '+ArrCons)
-console.log(ArrCons)
-let arrfill=ArrCons.fill(':)')
-console.log('fill the array with static values')
-console.log(arrfill)
-const arrconc=ObjArr.concat(ArrArr)
-console.log('concat function')
-console.log(arrconc)
-const IndexOfArr= ['re','ru','gu','of','te']
-console.log(IndexOfArr.indexOf('of'))
-let Index = IndexOfArr.indexOf('of')
-if(Index!=-1){
-console.log('items does exist in array')
-}else{
-console.log('items does not exis in array')
-}
-Index!=-1?console.log('item exists terinary ops'):console.log('item does not exists')
-console.log(IndexOfArr.lastIndexOf('re'))
-console.log('includes')
-console.log(IndexOfArr.includes('reg'))
-const arrStr=[{name:['I','AM','PRAVIGNA','PALA']}]
-console.log(arrStr.toString())
-console.log(IndexOfArr.join( ))
-console.log(IndexOfArr.join(' '))
-console.log('slice method')
-console.log(IndexOfArr.slice(0,4))
-console.log('splice method')
-console.log(IndexOfArr.splice(0,3))
-console.log(IndexOfArr.splice(1,3,'pre','pro','ces'))
-console.log(IndexOfArr)
+//Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+let string4 = 'pravigna pala is learnig the basic for future'
+console.log("Try programiz.pro");
+console.log(string4)
+console.log(string4.search('sf'))
+console.log(string4.charAt(6))
+console.log(string4.indexOf('the'))
+console.log(string4.includes('the'))
+console.log(string4.replace('the','an'))
+console.log(string4.charCodeAt(0))
+console.log(string4.split(''))
+console.log(string4.split(' '))
+let array = string4.split(' ')
+console.log(array[0].toUpperCase()+' '+array[1].toUpperCase())
+console.log(string4.startsWith('p'))
+console.log(string4.concat('purpose '))
+console.log(string4.trim())
+console.log(string4.lastIndexOf('future'))
 
-const numbers = [1, 2, 3, 4, 5]
-console.log(numbers.splice(0, 1))
-console.log('in splice , first parameter is position of target, second parameter is number of item to be added')
-console.log('push method')
-numbers.push(9)
-console.log(numbers)
-
-console.log('pop method')
-numbers.pop()
-console.log(numbers)
-console.log('shift method')
-numbers.shift()
-console.log(numbers)
-console.log('unshift method')
-numbers.unshift(2)
-console.log(numbers)
-console.log('reverse method')
-numbers.reverse()
-console.log(numbers)
-
-console.log('Sort methods')
-numbers.sort()
-console.log(numbers)
-IndexOfArr.sort()
-console.log(IndexOfArr)
-
-console.log('Array of Arrays')
-const arrofarr=[[4,5,6,6],[5,4,52]]
-console.log(arrofarr)
-const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-const backEnd=['Node', 'Express', 'MongoDB']
-const fullstack=[frontEnd,backEnd]
-console.log(fullstack)
-console.log(fullstack[0])
+let string6 = 'love'
+let number=4
+console.log(string6.repeat(10))
+console.log(typeof 'love')
+console.log(typeof 4)
+console.log(typeof true)
