@@ -1,0 +1,28 @@
+nickname of Samyuktha:sam
+change nickname of Pravigna:pala
+no of roommates:5
+roommate no 1 nickname:sam
+roommate no 2 nickname:likki
+roommate no 3 nickname:pinky
+roommate no 4 nickname:ammu
+roommate no 5 nickname:pala
+ sam likki pinky ammu pala average age of roommates:23
+matrix [[I@4fca772d
+[[2, 3, 4], [4, 5, 6, 7]]
+2
+9
+2
+3
+9
+4
+5
+6
+7
+forEach
+2
+3
+9
+4
+5
+6
+7
